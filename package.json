@@ -1,8 +1,7 @@
 {
   "name": "backup",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Backup git repositories",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,5 +13,8 @@
     "Clone"
   ],
   "author": "Rafael Salguero Iturrios <rafaelsalgueroiturrios@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bin" : {
+      "gitbu" : "bin/gitbu.bin.js"
+  }
 }
