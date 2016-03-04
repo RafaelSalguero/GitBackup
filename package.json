@@ -1,5 +1,5 @@
 {
-  "name": "backup",
+  "name": "gitbu",
   "version": "1.0.5",
   "description": "Backup git repositories",
   "scripts": {
